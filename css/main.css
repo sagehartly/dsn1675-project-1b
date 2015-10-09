@@ -308,14 +308,14 @@ h2 {
 @media only screen and (min-width: 62em) {
 
   .social-media {
-    width: 40%;
+    width: 30%;
     margin: 2em 10% 0 0;
     padding: 0;
   }
 
   .about-me {
     float: left;
-    width: 40%;
+    width: 50%;
     margin-left: 10%;
     padding: 0;
   }
@@ -374,6 +374,8 @@ h2 {
   }
 
   .profile-print {
+    margin: 10px 0;
+    max-height: 172px;
     width: 20%;
     float: left;
   }
@@ -381,16 +383,18 @@ h2 {
   .print-type {
     width: 80%;
     float: left;
-    padding: 0 0 2em 1em;
+    padding-left: 1em;
   }
 
   .print-h1 {
     font-family: 'Kaushan Script', cursive;
     font-size: 1.5em;
+    margin-top: 1em;
   }
 
   .print-h2 {
     font-size: 14px;
+    margin-top: 0.25em;
   }
 
 }
