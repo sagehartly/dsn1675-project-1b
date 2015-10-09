@@ -295,9 +295,13 @@ h2 {
 @media only screen and (min-width: 50em) {
 
   .social-media {
-    width: 30%;
+    width: 40%;
     float: right;
     padding: 0 5em 0 0;
+  }
+
+  .behance,.instagram, .linkedin {
+    max-width: 3.5em;
   }
 }
 
@@ -319,21 +323,21 @@ h2 {
   .behance {
     margin: 0;
     padding: 0;
-    width: 12%;
+    width: 20%;
     float: right;
   }
 
   .instagram {
-    margin: 0 4em;
+    margin: 0 2em;
     padding: 0;
-    width: 12%;
+    width: 20%;
     float: right;
   }
 
   .linkedin {
     margin: 0;
     padding: 0;
-    width: 12%;
+    width: 20%;
     float: right;
   }
 
