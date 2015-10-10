@@ -201,7 +201,7 @@ h2 {
 
 .about-me {
   padding: 0.5em 2em;
-  margin: 1em;
+  margin: 1em 1em 0 1em;
   clear: both;
 }
 
@@ -215,94 +215,80 @@ h2 {
 
 }
 
-@media only screen and (min-width: 44em) {
-
-  .about-me {
-    width: 60%;
-    margin: 1em 0 0 0;
-    padding: 0 0 2em 4.75em;
-    float: left;
-  }
-
-}
-
 /*------------footer-------------*/
 
 .behance {
-  margin: 0 0 1em 10%;
-  width: 20%;
+  margin: 0 0 2em 6.25%;
+  width: 25%;
+  max-width: 5em;
   float: left;
 }
 
 .instagram {
-  margin: 0 10% 1em 10%;
-  width: 20%;
+  margin: 0 6.25% 1em 6.25%;
+  width: 25%;
+  max-width: 5em;
   float: left;
 }
 
 .linkedin {
-  margin: 0 10% 1em 0;
-  width: 20%;
+  margin: 0 6.25% 1em 0;
+  width: 25%;
+  max-width: 5em;
   float: left;
 }
 
 @media only screen and (min-width: 24em) {
 
-  .behance {
-    margin: 0 0 1em 13%;
-    width: 15%;
+  .social-media {
+    text-align: center;
+    width: 60%;
+    margin: 0 20%;
   }
-
-  .instagram {
-    margin: 0 13% 1em 13%;
-    width: 15%;
-  }
-
-  .linkedin {
-    margin: 0 13% 1em 0;
-    width: 15%;
-  }
-
-}
 
 @media only screen and (min-width: 44em) {
+
+  .about-me {
+    width: 60%;
+    margin: 1em 0 0 0;
+    padding: 0 0 2em 4em;
+    float: left;
+  }
 
   .social-media {
     width: 40%;
     float: right;
-    padding: 0 4.75em 0 0;
+    margin: 0;
+    padding: 0 4em 0 2em;
   }
 
   .behance {
-    width: 25%;
-    padding: 2em 0 1em 0;
-    margin: 0 30% 0 45%;
+    width: 30%;
+    margin: 1.75em 25% 0 25%;
   }
 
   .instagram {
-    width: 25%;
-    margin: 0 30% 0 45%;
-    padding-bottom: 1em;
+    width: 30%;
+    margin: 1em 25%;
   }
 
   .linkedin {
-    width: 25%;
-    margin: 0 30% 0 45%;
+    width: 30%;
+    margin: 0 25%;
   }
 
 }
 
 @media only screen and (min-width: 50em) {
 
-  .social-media {
-    width: 40%;
-    float: right;
-    padding: 0 5em 0 0;
+  .behance,.instagram, .linkedin {
+    max-width: 4em;
   }
 
-  .behance,.instagram, .linkedin {
-    max-width: 3.5em;
+  .about-me p {
+    max-width: 28em;
   }
+
 }
 
 @media only screen and (min-width: 62em) {
